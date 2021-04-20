@@ -22,7 +22,8 @@
                     <asp:ListItem>其他</asp:ListItem>
                 </asp:RadioButtonList>
                 <asp:Label ID="Label3" runat="server" Text="其他連結" Font-Size="X-Large"></asp:Label>
-                <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="https://aws.amazon.com/tw/">HyperLink</asp:HyperLink>
+                <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="https://aws.amazon.com/tw/">HyperLink</asp:HyperLink><br>
+                <asp:Button ID="bt_Next" runat="server" Text="送出" Height="30px" Width="80px" />
         </div>
     </form>
 </body>
