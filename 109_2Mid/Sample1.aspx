@@ -10,18 +10,19 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <div><h2>會員註冊</h2></div>
-            <div>   <asp:Label ID="lb_Acc" runat="server" Text="會員帳號" AssociatedControlID="tb_Acc"></asp:Label>
-                    <asp:TextBox ID="tb_Acc" runat="server"></asp:TextBox></br>
-                <asp:Label ID="Label1" runat="server" Text="密碼"></asp:Label>
-                <asp:TextBox ID="TextBox1" runat="server" TextMode="Password"></asp:TextBox></br>
-                <asp:Label ID="Label2" runat="server" Text="興趣(單選)"></asp:Label>
-                <asp:RadioButtonList ID="RadioButtonList1" runat="server" RepeatDirection="Horizontal">
+            <div><h1>會員註冊</h1></div>
+            <div>   <asp:Label ID="lb_Acc" runat="server" Text="會員帳號" AssociatedControlID="tb_Acc" Font-Size="X-Large"></asp:Label>
+                    <asp:TextBox ID="tb_Acc" runat="server" Height="15px" Width="200px"></asp:TextBox></br>
+                <asp:Label ID="Label1" runat="server" Text="密碼" Font-Size="X-Large"></asp:Label>
+                <asp:TextBox ID="tb_Pass" runat="server" TextMode="Password" Height="15px" Width="200px"></asp:TextBox></br>
+                <asp:Label ID="Label2" runat="server" Text="興趣(單選)" Font-Size="X-Large"></asp:Label>
+                <asp:RadioButtonList ID="rbg_Interest" runat="server" RepeatDirection="Horizontal" Font-Size="X-Large">
                     <asp:ListItem>看書</asp:ListItem>
                     <asp:ListItem>打電動</asp:ListItem>
                     <asp:ListItem>其他</asp:ListItem>
-                </asp:RadioButtonList></br>
-                <asp:Label ID="Label3" runat="server" Text="其他連結"></asp:Label>
+                </asp:RadioButtonList>
+                <asp:Label ID="Label3" runat="server" Text="其他連結" Font-Size="X-Large"></asp:Label>
+                <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="https://aws.amazon.com/tw/">HyperLink</asp:HyperLink>
         </div>
     </form>
 </body>
